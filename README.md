@@ -17,10 +17,15 @@ The individual results and generated images for each experiment are saved in the
 ## Pre-trained Models & Reproducibility
 Due to GitHub's file size constraints, the heavy model weights (`.safetensors`) generated during these experiments are not stored in this repository. 
 
-To ensure strict reproducibility for the evaluation metrics reported in this study, all pruned and quantized models have been frozen and hosted publicly on the Hugging Face Hub.
+To ensure reproducibility for the evaluation metrics reported in this study, all pruned and quantized models have been frozen and hosted publicly on the Hugging Face Hub.
 
-**[Access the Pruned Models Here](https://huggingface.co/Nabeelah04/pruned_models) or (https://drive.google.com/drive/folders/1hHhax3B8KTWD8i88Q85wlHd1CwBTJ6I5?usp=sharing)**
-**[Access the Quantized Models Here](https://huggingface.co/Nabeelah04/quantized_models) or (https://drive.google.com/drive/folders/1aWaCGkP8-dCT2SahRq-gv7RxuqbgIrpe?usp=sharing)**
+**[Access the Pruned Models Here via Hugging Face](https://huggingface.co/Nabeelah04/pruned_models)**
+
+**[Access the Pruned Models Here via  Google Drive](https://drive.google.com/drive/folders/1hHhax3B8KTWD8i88Q85wlHd1CwBTJ6I5?usp=sharing)**
+
+**[Access the Quantized Models Here via Hugging Face](https://huggingface.co/Nabeelah04/quantized_models)** 
+
+**[Access the Quantized Models Here via Google Drive](https://drive.google.com/drive/folders/1aWaCGkP8-dCT2SahRq-gv7RxuqbgIrpe?usp=sharing)**
 
 ### How to Load the Models
 You can load any of the saved models directly via the `transformers` library without needing to download them manually:
