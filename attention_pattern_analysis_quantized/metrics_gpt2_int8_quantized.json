@@ -1,0 +1,16 @@
+{
+  "model": "gpt2_int8_quantized",
+  "entropy_mean": 2.0397382018686687,
+  "entropy_std": 0.8612139527485131,
+  "effective_support_mean": 11.555942254886752,
+  "top1_mass_mean": 0.4985761741617332,
+  "top3_mass_mean": 0.6679824189335987,
+  "first_token_attention_mean": 0.41672728485034494,
+  "prev_token_attention_mean": 0.09192700988757173,
+  "last_token_attention_mean": 0.00045150430835661556,
+  "head_similarity_mean": 0.985092565872603,
+  "head_similarity_std": 0.014883384401899067,
+  "head_similarity_min": 0.9280762791633606,
+  "entropy_change_mean": 0.02636626316991168,
+  "entropy_change_std": 0.09224168930971094
+}

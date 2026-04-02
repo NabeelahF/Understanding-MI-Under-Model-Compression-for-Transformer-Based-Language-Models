@@ -1,0 +1,69 @@
+
+--------------------------------------------------------------------------------
+SECTION 1: PROBE VALIDITY
+--------------------------------------------------------------------------------
+  base_model                               Layer 0: 74.2%  ✓ VALID
+  gpt2_fp16_gpu                            Layer 0: 74.2%  ✓ VALID
+  gpt2_fp32_baseline                       Layer 0: 74.2%  ✓ VALID
+  gpt2_int8_quantized                      Layer 0: 71.0%  ✓ VALID
+
+--------------------------------------------------------------------------------
+SECTION 2: INPUT-TYPE SEPARABILITY + DIRECTION
+--------------------------------------------------------------------------------
+
+  gpt2_fp16_gpu:
+    Peak probe accuracy   : 85.2%  (baseline 85.2%, retention 100.0%)
+    Peak direction magnitude: 6.5453  (baseline 6.5476, retention 100.0%)
+    First separation layer  : Layer 0
+
+  gpt2_fp32_baseline:
+    Peak probe accuracy   : 85.2%  (baseline 85.2%, retention 100.0%)
+    Peak direction magnitude: 6.5451  (baseline 6.5476, retention 100.0%)
+    First separation layer  : Layer 0
+
+  gpt2_int8_quantized:
+    Peak probe accuracy   : 82.2%  (baseline 85.2%, retention 96.5%)
+    Peak direction magnitude: 5.2393  (baseline 6.5476, retention 80.0%)
+    First separation layer  : Layer 0
+
+--------------------------------------------------------------------------------
+SECTION 3: PATCHING EFFECTS (vocab-agnostic)
+--------------------------------------------------------------------------------
+
+  gpt2_fp16_gpu:
+    Max rank shift: 1.0 at Layer 0
+    Max KL div    : 0.3951 at Layer 0
+
+  gpt2_fp32_baseline:
+    Max rank shift: 1.0 at Layer 0
+    Max KL div    : 0.3954 at Layer 0
+
+  gpt2_int8_quantized:
+    Max rank shift: 871.5 at Layer 0
+    Max KL div    : 0.2028 at Layer 0
+
+--------------------------------------------------------------------------------
+SECTION 4: FACTUAL RECALL CAPACITY
+--------------------------------------------------------------------------------
+
+  gpt2_fp16_gpu:
+    Peak top-5 accuracy: 20.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.102  (baseline 1.102; >1 = model prefers correct answer)
+
+  gpt2_fp32_baseline:
+    Peak top-5 accuracy: 20.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.102  (baseline 1.102; >1 = model prefers correct answer)
+
+  gpt2_int8_quantized:
+    Peak top-5 accuracy: 7.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.009  (baseline 1.102; >1 = model prefers correct answer)
+
+--------------------------------------------------------------------------------
+SECTION 5: REPRESENTATIONAL CAPACITY TAX
+--------------------------------------------------------------------------------
+
+  Model                                    |  Safety Drop | General Drop | Tax
+  --------------------------------------------------------------------------
+  gpt2_fp16_gpu                            |       +0.0% |       +0.0% | 🟢 ABSENT
+  gpt2_fp32_baseline                       |       +0.0% |       +0.0% | 🟢 ABSENT
+  gpt2_int8_quantized                      |      +20.0% |      +65.0% | 🟢 ABSENT

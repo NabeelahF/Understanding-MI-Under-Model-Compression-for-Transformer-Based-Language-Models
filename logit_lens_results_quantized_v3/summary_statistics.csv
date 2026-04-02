@@ -1,0 +1,6 @@
+,accuracy,accuracy,accuracy,relative_accuracy,relative_accuracy
+,mean,min,max,mean,min
+model,,,,,
+base_model,0.1506,0.0,0.4646,1.0,1.0
+gpt2_fp16_gpu,0.1506,0.0,0.4645,1.0001,0.9989
+gpt2_int8_quantized,0.0904,0.0,0.2795,0.8883,0.0

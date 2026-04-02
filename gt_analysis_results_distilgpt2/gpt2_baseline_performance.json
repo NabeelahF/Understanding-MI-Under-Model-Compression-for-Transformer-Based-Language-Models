@@ -1,0 +1,9 @@
+{
+  "mean_answer_logit": -176.20791625976562,
+  "std_answer_logit": 16.264379501342773,
+  "median_answer_logit": -179.97816467285156,
+  "accuracy": 0.94,
+  "gt_prob_mass": 0.8549486398696899,
+  "gt_prob_mass_std": 0.20509634912014008,
+  "mean_valid_logit": -176.34600830078125
+}

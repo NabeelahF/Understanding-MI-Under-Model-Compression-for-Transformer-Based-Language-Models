@@ -1,0 +1,16 @@
+{
+  "model": "gpt2_fp16_gpu",
+  "entropy_mean": 2.0133308234457745,
+  "entropy_std": 0.8673216911188285,
+  "effective_support_mean": 11.374341269332675,
+  "top1_mass_mean": 0.5052771638613194,
+  "top3_mass_mean": 0.6724463304949717,
+  "first_token_attention_mean": 0.4205686476365978,
+  "prev_token_attention_mean": 0.09152679834030802,
+  "last_token_attention_mean": 0.00044566636028940465,
+  "head_similarity_mean": 1.0000015321705076,
+  "head_similarity_std": 6.3308522002105276e-06,
+  "head_similarity_min": 0.9999704957008362,
+  "entropy_change_mean": -4.1115252982632105e-05,
+  "entropy_change_std": 0.0005397700761535223
+}

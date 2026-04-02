@@ -1,0 +1,2 @@
+source_layer,source_head,target_layer,target_head,path_type,path_name,base_score,base_std,distil_score,distil_std,degradation,n_samples
+0,1,5,1,PT→IND,L0H1→L5H1,0.11905555427074432,1.5097136497497559,0.08278098702430725,1.389647126197815,0.3046860557546526,1000

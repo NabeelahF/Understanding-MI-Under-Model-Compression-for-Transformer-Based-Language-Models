@@ -1,0 +1,18 @@
+{
+  "model": "random_neurons_sparsity50",
+  "pruning_type": "random_neurons",
+  "sparsity": 50,
+  "entropy_mean": 2.0503365105556117,
+  "entropy_std": 0.8717753948491069,
+  "effective_support_mean": 11.559352833590493,
+  "top1_mass_mean": 0.5111247533350252,
+  "top3_mass_mean": 0.6613711755799078,
+  "first_token_attention_mean": 0.4384854920878125,
+  "prev_token_attention_mean": 0.07673206272453374,
+  "last_token_attention_mean": 0.00034487110180258623,
+  "head_similarity_mean": 0.878033542777929,
+  "head_similarity_std": 0.09017559264275699,
+  "head_similarity_min": 0.47195083796978,
+  "entropy_change_mean": 0.03693489523479608,
+  "entropy_change_std": 0.5089507708544713
+}

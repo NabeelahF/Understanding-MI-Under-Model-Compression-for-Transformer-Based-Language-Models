@@ -1,0 +1,16 @@
+,accuracy,accuracy,accuracy,relative_accuracy,relative_accuracy
+,mean,min,max,mean,min
+model,,,,,
+base_model,0.1409,0.0,0.4433,1.0,1.0
+magnitude_attention_heads_sparsity30,0.117,0.0,0.3567,0.9375,0.7469
+magnitude_attention_heads_sparsity50,0.1045,0.0,0.2888,0.8942,0.6514
+magnitude_attention_heads_sparsity70,0.0856,0.0,0.2183,0.8826,0.4849
+magnitude_neurons_sparsity30,0.0617,0.0,0.1685,0.6702,0.28
+magnitude_neurons_sparsity50,0.0504,0.0,0.1259,0.6422,0.1819
+magnitude_neurons_sparsity70,0.0252,0.0,0.0574,0.5061,0.0345
+random_attention_heads_sparsity30,0.0714,0.0,0.1881,0.7795,0.3847
+random_attention_heads_sparsity50,0.0712,0.0,0.1978,0.7108,0.4241
+random_attention_heads_sparsity70,0.0403,0.0,0.1395,0.3943,0.118
+random_neurons_sparsity30,0.0852,0.0,0.1637,0.881,0.3691
+random_neurons_sparsity50,0.0538,0.0,0.1125,0.648,0.2266
+random_neurons_sparsity70,0.0506,0.0,0.0869,0.8724,0.0699

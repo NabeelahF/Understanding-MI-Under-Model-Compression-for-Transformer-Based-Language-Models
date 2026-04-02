@@ -1,0 +1,8 @@
+{
+  "mean_logit_diff": 2.933574676513672,
+  "std_logit_diff": 1.9492515325546265,
+  "median_logit_diff": 2.9834442138671875,
+  "accuracy": 0.9419999718666077,
+  "gt_prob_mass": 0.8534927368164062,
+  "gt_prob_mass_std": 0.21257872879505157
+}

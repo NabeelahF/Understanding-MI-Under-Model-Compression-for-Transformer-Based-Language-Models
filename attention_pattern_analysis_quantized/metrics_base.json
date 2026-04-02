@@ -1,0 +1,10 @@
+{
+  "entropy_mean": 2.0133719386987567,
+  "entropy_std": 0.8674103614530213,
+  "effective_support_mean": 11.37533794755931,
+  "top1_mass_mean": 0.5052763392518843,
+  "top3_mass_mean": 0.6724319180753082,
+  "first_token_attention_mean": 0.4205509944593723,
+  "prev_token_attention_mean": 0.09152550127442534,
+  "last_token_attention_mean": 0.00044549499006627116
+}

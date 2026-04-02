@@ -1,0 +1,18 @@
+{
+  "model": "magnitude_attention_heads_sparsity70",
+  "pruning_type": "magnitude_attention_heads",
+  "sparsity": 70,
+  "entropy_mean": 3.561206575640697,
+  "entropy_std": 1.1270834575137523,
+  "effective_support_mean": 51.087815648015784,
+  "top1_mass_mean": 0.1601526895893039,
+  "top3_mass_mean": 0.25704375234691224,
+  "first_token_attention_mean": 0.09766164505783106,
+  "prev_token_attention_mean": 0.06180599924196738,
+  "last_token_attention_mean": 0.00020940230904908764,
+  "head_similarity_mean": 0.524434129966216,
+  "head_similarity_std": 0.29419742473167265,
+  "head_similarity_min": 0.20876832753419877,
+  "entropy_change_mean": 1.5478049603198814,
+  "entropy_change_std": 1.0947944369441274
+}

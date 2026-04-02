@@ -1,0 +1,1006 @@
+{
+  "description": "CounterFact factual recall prompts and expected answers. Source: NeelNanda/counterfact-tracing (HuggingFace). Used for top-5 accuracy and perplexity ratio metrics.",
+  "n_prompts": 200,
+  "prompts": [
+    {
+      "index": 0,
+      "prompt": "Angola is located in",
+      "answer": " Africa"
+    },
+    {
+      "index": 1,
+      "prompt": "What is the twin city of Shanghai? It is",
+      "answer": " Barcelona"
+    },
+    {
+      "index": 2,
+      "prompt": "2011 Cannes Film Festival can be found in",
+      "answer": " Cannes"
+    },
+    {
+      "index": 3,
+      "prompt": "Delta Goodrem, that originated in",
+      "answer": " Australia"
+    },
+    {
+      "index": 4,
+      "prompt": "Google Patents, a product developed by",
+      "answer": " Google"
+    },
+    {
+      "index": 5,
+      "prompt": "Lady Gaga, the",
+      "answer": " piano"
+    },
+    {
+      "index": 6,
+      "prompt": "The twin city of Cologne is",
+      "answer": " Beijing"
+    },
+    {
+      "index": 7,
+      "prompt": "Institut Polaire originated in",
+      "answer": " Perth"
+    },
+    {
+      "index": 8,
+      "prompt": "The language of Allegro Non Troppo was",
+      "answer": " Italian"
+    },
+    {
+      "index": 9,
+      "prompt": "Thenewno2, that was created in",
+      "answer": " London"
+    },
+    {
+      "index": 10,
+      "prompt": "Lewin Brzeski, in",
+      "answer": " Poland"
+    },
+    {
+      "index": 11,
+      "prompt": "Charles Lang Freer House, in",
+      "answer": " Detroit"
+    },
+    {
+      "index": 12,
+      "prompt": "Sunday Night Baseball debuted on",
+      "answer": " ESPN"
+    },
+    {
+      "index": 13,
+      "prompt": "Larry Stabbins was native to",
+      "answer": " Bristol"
+    },
+    {
+      "index": 14,
+      "prompt": "Marco Pannella worked in the city of",
+      "answer": " Rome"
+    },
+    {
+      "index": 15,
+      "prompt": "Bob Mason plays in the position of",
+      "answer": " goaltender"
+    },
+    {
+      "index": 16,
+      "prompt": "Bernard Giraudeau is a native speaker of",
+      "answer": " French"
+    },
+    {
+      "index": 17,
+      "prompt": "The Constellations, that was formed in",
+      "answer": " Atlanta"
+    },
+    {
+      "index": 18,
+      "prompt": "The official religion of christian worship is",
+      "answer": " Christianity"
+    },
+    {
+      "index": 19,
+      "prompt": "Elizabeth Boleyn, Countess of Wiltshire originates from",
+      "answer": " Norfolk"
+    },
+    {
+      "index": 20,
+      "prompt": "Oak Street Beach is owned by",
+      "answer": " Chicago"
+    },
+    {
+      "index": 21,
+      "prompt": "Guillaumes, which is located in",
+      "answer": " France"
+    },
+    {
+      "index": 22,
+      "prompt": "Five Star Krishna's profession is an",
+      "answer": " actor"
+    },
+    {
+      "index": 23,
+      "prompt": "Mandailing language is located in",
+      "answer": " Indonesia"
+    },
+    {
+      "index": 24,
+      "prompt": "Allan Warren writes in",
+      "answer": " English"
+    },
+    {
+      "index": 25,
+      "prompt": "Dick Radatz plays in the position of",
+      "answer": " pitcher"
+    },
+    {
+      "index": 26,
+      "prompt": "Louis McLane expired at",
+      "answer": " Baltimore"
+    },
+    {
+      "index": 27,
+      "prompt": "Sinclair Radionics was formed in",
+      "answer": " Cambridge"
+    },
+    {
+      "index": 28,
+      "prompt": "KKBQ, in",
+      "answer": " Texas"
+    },
+    {
+      "index": 29,
+      "prompt": "Princeton University Press's headquarters are in",
+      "answer": " Princeton"
+    },
+    {
+      "index": 30,
+      "prompt": "Toei Company originated in",
+      "answer": " Tokyo"
+    },
+    {
+      "index": 31,
+      "prompt": "Interstate 255 is within",
+      "answer": " Illinois"
+    },
+    {
+      "index": 32,
+      "prompt": "Johannes Schilling worked in the city of",
+      "answer": " Dresden"
+    },
+    {
+      "index": 33,
+      "prompt": "Edina High School is within",
+      "answer": " Minnesota"
+    },
+    {
+      "index": 34,
+      "prompt": "Tom McCall Waterfront Park is in",
+      "answer": " Oregon"
+    },
+    {
+      "index": 35,
+      "prompt": "Austin Currie, a citizen of",
+      "answer": " Ireland"
+    },
+    {
+      "index": 36,
+      "prompt": "omphacite, which is named after",
+      "answer": " grape"
+    },
+    {
+      "index": 37,
+      "prompt": "Space Sentinels premiered on",
+      "answer": " NBC"
+    },
+    {
+      "index": 38,
+      "prompt": "CBS Sports Spectacular was released on",
+      "answer": " CBS"
+    },
+    {
+      "index": 39,
+      "prompt": "Kazi Nazrul Islam is a citizen of",
+      "answer": " Bangladesh"
+    },
+    {
+      "index": 40,
+      "prompt": "Jens Evensen is a citizen of",
+      "answer": " Norway"
+    },
+    {
+      "index": 41,
+      "prompt": "Persian Risk, that was created in",
+      "answer": " Cardiff"
+    },
+    {
+      "index": 42,
+      "prompt": "North Side Gang formed in",
+      "answer": " Chicago"
+    },
+    {
+      "index": 43,
+      "prompt": "Justin Fleming was originally from",
+      "answer": " Sydney"
+    },
+    {
+      "index": 44,
+      "prompt": "The Bronx Is Burning premiered on",
+      "answer": " ESPN"
+    },
+    {
+      "index": 45,
+      "prompt": "Patrick Colquhoun died in the city of",
+      "answer": " London"
+    },
+    {
+      "index": 46,
+      "prompt": "Nintendo Software Planning & Development owner",
+      "answer": " Nintendo"
+    },
+    {
+      "index": 47,
+      "prompt": "Hilary Putnam works as",
+      "answer": " philosopher"
+    },
+    {
+      "index": 48,
+      "prompt": "The mother tongue of Michel Poniatowski is",
+      "answer": " French"
+    },
+    {
+      "index": 49,
+      "prompt": "The domain of activity of Ludwig Klages is",
+      "answer": " psychology"
+    },
+    {
+      "index": 50,
+      "prompt": "Washington McLean originated from",
+      "answer": " Cincinnati"
+    },
+    {
+      "index": 51,
+      "prompt": "George Cadogan, 5th Earl Cadogan passed away in",
+      "answer": " London"
+    },
+    {
+      "index": 52,
+      "prompt": "The capital of Norway is",
+      "answer": " Oslo"
+    },
+    {
+      "index": 53,
+      "prompt": "Hans Bol died in the city of",
+      "answer": " Amsterdam"
+    },
+    {
+      "index": 54,
+      "prompt": "Ivar Antonsen plays the instrument",
+      "answer": " piano"
+    },
+    {
+      "index": 55,
+      "prompt": "What sport does Steve Yzerman play? They play",
+      "answer": " hockey"
+    },
+    {
+      "index": 56,
+      "prompt": "Northwest Branch Anacostia River is in",
+      "answer": " Maryland"
+    },
+    {
+      "index": 57,
+      "prompt": "Alston G. Dayton works as",
+      "answer": " politician"
+    },
+    {
+      "index": 58,
+      "prompt": "Alain Mabanckou, a native",
+      "answer": " French"
+    },
+    {
+      "index": 59,
+      "prompt": "Maurice Schutz, speaker of",
+      "answer": " French"
+    },
+    {
+      "index": 60,
+      "prompt": "Siri, developed by",
+      "answer": " Apple"
+    },
+    {
+      "index": 61,
+      "prompt": "Abiel Smith School can be found in",
+      "answer": " Boston"
+    },
+    {
+      "index": 62,
+      "prompt": "Cigoli's profession is a",
+      "answer": " architect"
+    },
+    {
+      "index": 63,
+      "prompt": "Neuburg Peak is located in the continent",
+      "answer": " Antarctica"
+    },
+    {
+      "index": 64,
+      "prompt": "Orpheus Island National Park, which is located in",
+      "answer": " Australia"
+    },
+    {
+      "index": 65,
+      "prompt": "Dino Saluzzi's profession is a",
+      "answer": " composer"
+    },
+    {
+      "index": 66,
+      "prompt": "Cumberland University can be found in",
+      "answer": " Tennessee"
+    },
+    {
+      "index": 67,
+      "prompt": "Desejos de Mulher, that was created in",
+      "answer": " Brazil"
+    },
+    {
+      "index": 68,
+      "prompt": "The language of Thiruda Thirudi is",
+      "answer": " Tamil"
+    },
+    {
+      "index": 69,
+      "prompt": "Mount Hallgren is in",
+      "answer": " Antarctica"
+    },
+    {
+      "index": 70,
+      "prompt": "The law in Ticino declares the language",
+      "answer": " Italian"
+    },
+    {
+      "index": 71,
+      "prompt": "Nintendo Software Planning & Development was created in",
+      "answer": " Japan"
+    },
+    {
+      "index": 72,
+      "prompt": "Simdega is located in the country of",
+      "answer": " India"
+    },
+    {
+      "index": 73,
+      "prompt": "Baal Shem of London speaks the language",
+      "answer": " Hebrew"
+    },
+    {
+      "index": 74,
+      "prompt": "Orchidea De Santis speaks",
+      "answer": " Italian"
+    },
+    {
+      "index": 75,
+      "prompt": "Jimdo is based in",
+      "answer": " Hamburg"
+    },
+    {
+      "index": 76,
+      "prompt": "Selma Kurz was employed in",
+      "answer": " Vienna"
+    },
+    {
+      "index": 77,
+      "prompt": "Bituin, created in",
+      "answer": " Philippines"
+    },
+    {
+      "index": 78,
+      "prompt": "Pelagius II's position is",
+      "answer": " pope"
+    },
+    {
+      "index": 79,
+      "prompt": "Henri Queuille speaks",
+      "answer": " French"
+    },
+    {
+      "index": 80,
+      "prompt": "Ma Rainey, that is represented by",
+      "answer": " Paramount"
+    },
+    {
+      "index": 81,
+      "prompt": "The domain of activity of Luca Pacioli is",
+      "answer": " mathematics"
+    },
+    {
+      "index": 82,
+      "prompt": "Split Airport was named for",
+      "answer": " Split"
+    },
+    {
+      "index": 83,
+      "prompt": "Aram Khachaturian died in",
+      "answer": " Moscow"
+    },
+    {
+      "index": 84,
+      "prompt": "Ferrari Berlinetta Boxer, developed by",
+      "answer": " Ferrari"
+    },
+    {
+      "index": 85,
+      "prompt": "Arnie Herber, who plays the position",
+      "answer": " quarterback"
+    },
+    {
+      "index": 86,
+      "prompt": "Junichi Suwabe was born in",
+      "answer": " Tokyo"
+    },
+    {
+      "index": 87,
+      "prompt": "Chevrolet Corvette C5-R is produced by",
+      "answer": " Chevrolet"
+    },
+    {
+      "index": 88,
+      "prompt": "Rudolf Viest has a citizenship from",
+      "answer": " Slovakia"
+    },
+    {
+      "index": 89,
+      "prompt": "World Association of Girl Guides and Girl Scouts is headquartered in",
+      "answer": " London"
+    },
+    {
+      "index": 90,
+      "prompt": "The mother tongue of Valentin Conrart is",
+      "answer": " French"
+    },
+    {
+      "index": 91,
+      "prompt": "The Postal Service, that was formed in",
+      "answer": " Seattle"
+    },
+    {
+      "index": 92,
+      "prompt": "Thomas Laird Kennedy, who has a citizenship from",
+      "answer": " Canada"
+    },
+    {
+      "index": 93,
+      "prompt": "Vistula is located in the continent",
+      "answer": " Europe"
+    },
+    {
+      "index": 94,
+      "prompt": "Barney Balaban was native to",
+      "answer": " Chicago"
+    },
+    {
+      "index": 95,
+      "prompt": "Arundel Formation is located in",
+      "answer": " Maryland"
+    },
+    {
+      "index": 96,
+      "prompt": "Giovanni Maria Nanino's profession is a",
+      "answer": " composer"
+    },
+    {
+      "index": 97,
+      "prompt": "In American Samoa, the language spoken is",
+      "answer": " English"
+    },
+    {
+      "index": 98,
+      "prompt": "Alain de Benoist speaks",
+      "answer": " French"
+    },
+    {
+      "index": 99,
+      "prompt": "In Jamshedpur, an official language is",
+      "answer": " Hindi"
+    },
+    {
+      "index": 100,
+      "prompt": "Eureka Brass Band is known for performing",
+      "answer": " jazz"
+    },
+    {
+      "index": 101,
+      "prompt": "Samuel Naumbourg worked in",
+      "answer": " Paris"
+    },
+    {
+      "index": 102,
+      "prompt": "Aldus Manutius was employed in",
+      "answer": " Venice"
+    },
+    {
+      "index": 103,
+      "prompt": "The expertise of Carl Ritter is",
+      "answer": " geography"
+    },
+    {
+      "index": 104,
+      "prompt": "The Phil Silvers Show premieres on",
+      "answer": " CBS"
+    },
+    {
+      "index": 105,
+      "prompt": "Marie Dorval is a native speaker of",
+      "answer": " French"
+    },
+    {
+      "index": 106,
+      "prompt": "In Kuusamo, the language spoken is",
+      "answer": " Finnish"
+    },
+    {
+      "index": 107,
+      "prompt": "Sangamam was developed in",
+      "answer": " India"
+    },
+    {
+      "index": 108,
+      "prompt": "Glastonbury Lake Village can be found in",
+      "answer": " Somerset"
+    },
+    {
+      "index": 109,
+      "prompt": "Anson Funderburgh, performing on the",
+      "answer": " guitar"
+    },
+    {
+      "index": 110,
+      "prompt": "DJ Die was originally from",
+      "answer": " Devon"
+    },
+    {
+      "index": 111,
+      "prompt": "Philippine Lotto Draw, developed in",
+      "answer": " Philippines"
+    },
+    {
+      "index": 112,
+      "prompt": "Cyberdog was created by",
+      "answer": " Apple"
+    },
+    {
+      "index": 113,
+      "prompt": "Eric Partridge writes in",
+      "answer": " English"
+    },
+    {
+      "index": 114,
+      "prompt": "Manuel Ferraz de Campos Sales, who holds a citizenship from",
+      "answer": " Brazil"
+    },
+    {
+      "index": 115,
+      "prompt": "Juan Carlos Garrido writes in",
+      "answer": " Spanish"
+    },
+    {
+      "index": 116,
+      "prompt": "The mother tongue of Jean-Louis Barrault is",
+      "answer": " French"
+    },
+    {
+      "index": 117,
+      "prompt": "PGM-11 Redstone, developed by",
+      "answer": " Chrysler"
+    },
+    {
+      "index": 118,
+      "prompt": "Gran Trak 10, a product created by",
+      "answer": " Atari"
+    },
+    {
+      "index": 119,
+      "prompt": "The official language of Loviisa is",
+      "answer": " Swedish"
+    },
+    {
+      "index": 120,
+      "prompt": "Event Viewer, a product developed by",
+      "answer": " Microsoft"
+    },
+    {
+      "index": 121,
+      "prompt": "The Honeymooners was released on",
+      "answer": " CBS"
+    },
+    {
+      "index": 122,
+      "prompt": "Ouest-France was written in",
+      "answer": " French"
+    },
+    {
+      "index": 123,
+      "prompt": "New Club, Edinburgh, in",
+      "answer": " Edinburgh"
+    },
+    {
+      "index": 124,
+      "prompt": "68th Venice International Film Festival is in",
+      "answer": " Venice"
+    },
+    {
+      "index": 125,
+      "prompt": "Sheryl Crow, playing the",
+      "answer": " guitar"
+    },
+    {
+      "index": 126,
+      "prompt": "The Barbara Stanwyck Show debuted on",
+      "answer": " NBC"
+    },
+    {
+      "index": 127,
+      "prompt": "Porsche Panamera is developed by",
+      "answer": " Porsche"
+    },
+    {
+      "index": 128,
+      "prompt": "Leonard Cohen, performing on the",
+      "answer": " guitar"
+    },
+    {
+      "index": 129,
+      "prompt": "The headquarter of Wood Gundy is located in",
+      "answer": " Toronto"
+    },
+    {
+      "index": 130,
+      "prompt": "The Woodentops was founded in",
+      "answer": " London"
+    },
+    {
+      "index": 131,
+      "prompt": "IBM Network Control Program was developed by",
+      "answer": " IBM"
+    },
+    {
+      "index": 132,
+      "prompt": "Kukri Hills is a part of the continent of",
+      "answer": " Antarctica"
+    },
+    {
+      "index": 133,
+      "prompt": "International Istanbul Film Festival is in",
+      "answer": " Istanbul"
+    },
+    {
+      "index": 134,
+      "prompt": "Crownies was formulated in",
+      "answer": " Australia"
+    },
+    {
+      "index": 135,
+      "prompt": "Mount Carmel can be found in",
+      "answer": " Illinois"
+    },
+    {
+      "index": 136,
+      "prompt": "Aloha Stadium, from",
+      "answer": " Hawaii"
+    },
+    {
+      "index": 137,
+      "prompt": "Which position does Pietro Fanna play? They play as",
+      "answer": " midfielder"
+    },
+    {
+      "index": 138,
+      "prompt": "Nevada Bachelors that was founded in",
+      "answer": " Seattle"
+    },
+    {
+      "index": 139,
+      "prompt": "Kalyan Kumar is native to",
+      "answer": " Bangalore"
+    },
+    {
+      "index": 140,
+      "prompt": "Henrique Maximiano Coelho Neto is a citizen of",
+      "answer": " Brazil"
+    },
+    {
+      "index": 141,
+      "prompt": "Clayton Kershaw is a professional",
+      "answer": " baseball"
+    },
+    {
+      "index": 142,
+      "prompt": "Leo Villareal originates from",
+      "answer": " Albuquerque"
+    },
+    {
+      "index": 143,
+      "prompt": "Francesco Bolzoni plays in the position of",
+      "answer": " midfielder"
+    },
+    {
+      "index": 144,
+      "prompt": "iPod shuffle, created by",
+      "answer": " Apple"
+    },
+    {
+      "index": 145,
+      "prompt": "What does Benny Golson play? They play",
+      "answer": " jazz"
+    },
+    {
+      "index": 146,
+      "prompt": "Lionel Messi holds a citizenship from",
+      "answer": " Argentina"
+    },
+    {
+      "index": 147,
+      "prompt": "The official religion of Syed Kalbe Hussain is",
+      "answer": " Islam"
+    },
+    {
+      "index": 148,
+      "prompt": "The profession of Riky Rick is",
+      "answer": " actor"
+    },
+    {
+      "index": 149,
+      "prompt": "Iruma Air Base, located in",
+      "answer": " Japan"
+    },
+    {
+      "index": 150,
+      "prompt": "John Henry Poynting's domain of activity is",
+      "answer": " physics"
+    },
+    {
+      "index": 151,
+      "prompt": "Eduardo Zaplana found employment in",
+      "answer": " Madrid"
+    },
+    {
+      "index": 152,
+      "prompt": "The profession of Hiroshi Hase is",
+      "answer": " politician"
+    },
+    {
+      "index": 153,
+      "prompt": "Pierre Soulages used to work in",
+      "answer": " Paris"
+    },
+    {
+      "index": 154,
+      "prompt": "World Series Cricket was created in the country of",
+      "answer": " Australia"
+    },
+    {
+      "index": 155,
+      "prompt": "In Federated States of Micronesia, the language spoken is",
+      "answer": " English"
+    },
+    {
+      "index": 156,
+      "prompt": "scientific method's area of work is",
+      "answer": " science"
+    },
+    {
+      "index": 157,
+      "prompt": "London International Airport, which was named for",
+      "answer": " London"
+    },
+    {
+      "index": 158,
+      "prompt": "In Mykolaiv Oblast, they understand",
+      "answer": " Ukrainian"
+    },
+    {
+      "index": 159,
+      "prompt": "New Democratic Party Socialist Caucus, in",
+      "answer": " Canada"
+    },
+    {
+      "index": 160,
+      "prompt": "cepelinai originated in",
+      "answer": " Lithuania"
+    },
+    {
+      "index": 161,
+      "prompt": "Minamoto no Sanetomo, who holds a citizenship from",
+      "answer": " Japan"
+    },
+    {
+      "index": 162,
+      "prompt": "Ruth Marshall's occupation is",
+      "answer": " actor"
+    },
+    {
+      "index": 163,
+      "prompt": "Israel's capital city is",
+      "answer": " Jerusalem"
+    },
+    {
+      "index": 164,
+      "prompt": "Samuil Feinberg plays",
+      "answer": " piano"
+    },
+    {
+      "index": 165,
+      "prompt": "Porsche 911, created by",
+      "answer": " Porsche"
+    },
+    {
+      "index": 166,
+      "prompt": "Juan de Espinosa Medrano, speaker of",
+      "answer": " Spanish"
+    },
+    {
+      "index": 167,
+      "prompt": "Beatrix of the Netherlands, speaker of",
+      "answer": " Dutch"
+    },
+    {
+      "index": 168,
+      "prompt": "Aino Sibelius originated from",
+      "answer": " Helsinki"
+    },
+    {
+      "index": 169,
+      "prompt": "In La Gomera, an official language is",
+      "answer": " Spanish"
+    },
+    {
+      "index": 170,
+      "prompt": "In Porrentruy, they understand",
+      "answer": " French"
+    },
+    {
+      "index": 171,
+      "prompt": "Alexander Zinoviev works in the area of",
+      "answer": " sociology"
+    },
+    {
+      "index": 172,
+      "prompt": "Georgina Leonidas's profession is an",
+      "answer": " actor"
+    },
+    {
+      "index": 173,
+      "prompt": "Moe Koffman originates from",
+      "answer": " Toronto"
+    },
+    {
+      "index": 174,
+      "prompt": "Pittsburgh is a twin city of",
+      "answer": " Sheffield"
+    },
+    {
+      "index": 175,
+      "prompt": "Andrew Neil, who is employed by",
+      "answer": " BBC"
+    },
+    {
+      "index": 176,
+      "prompt": "John Huarte plays in the position of",
+      "answer": " quarterback"
+    },
+    {
+      "index": 177,
+      "prompt": "Istanbul is a twin city of",
+      "answer": " Cairo"
+    },
+    {
+      "index": 178,
+      "prompt": "Tao Lin performs",
+      "answer": " essay"
+    },
+    {
+      "index": 179,
+      "prompt": "Henry Maudsley speaks the language",
+      "answer": " English"
+    },
+    {
+      "index": 180,
+      "prompt": "Aryabhata's area of work is",
+      "answer": " astronomy"
+    },
+    {
+      "index": 181,
+      "prompt": "Avie Bennett is originally from",
+      "answer": " Toronto"
+    },
+    {
+      "index": 182,
+      "prompt": "The occupation of Carl Barron is",
+      "answer": " comedian"
+    },
+    {
+      "index": 183,
+      "prompt": "Gentle Ben is to debut on",
+      "answer": " CBS"
+    },
+    {
+      "index": 184,
+      "prompt": "Ferdinand-Alphonse Hamelin, speaker of",
+      "answer": " French"
+    },
+    {
+      "index": 185,
+      "prompt": "Peter Jason's profession is an",
+      "answer": " actor"
+    },
+    {
+      "index": 186,
+      "prompt": "Peter Kassovitz spoke the language",
+      "answer": " French"
+    },
+    {
+      "index": 187,
+      "prompt": "The domain of work of Joseph Louis Gay-Lussac is",
+      "answer": " chemistry"
+    },
+    {
+      "index": 188,
+      "prompt": "Goffredo Petrassi lost their life at",
+      "answer": " Rome"
+    },
+    {
+      "index": 189,
+      "prompt": "Jean Chiappe, speaker of",
+      "answer": " French"
+    },
+    {
+      "index": 190,
+      "prompt": "Shaad Ali, a citizen of",
+      "answer": " India"
+    },
+    {
+      "index": 191,
+      "prompt": "Byron Dafoe, who plays the position",
+      "answer": " goaltender"
+    },
+    {
+      "index": 192,
+      "prompt": "Ahmad Zahir was born in",
+      "answer": " Kabul"
+    },
+    {
+      "index": 193,
+      "prompt": "The genre played by Jim Pugliese is",
+      "answer": " jazz"
+    },
+    {
+      "index": 194,
+      "prompt": "Turkmenistan, in",
+      "answer": " Asia"
+    },
+    {
+      "index": 195,
+      "prompt": "Germany is affiliated with",
+      "answer": " NATO"
+    },
+    {
+      "index": 196,
+      "prompt": "Letter to Loretta premiered on",
+      "answer": " NBC"
+    },
+    {
+      "index": 197,
+      "prompt": "Francis X. DiLorenzo has the position of",
+      "answer": " bishop"
+    },
+    {
+      "index": 198,
+      "prompt": "Marinus II, who has the position of",
+      "answer": " pope"
+    },
+    {
+      "index": 199,
+      "prompt": "Rick Barry professionally plays the sport",
+      "answer": " basketball"
+    }
+  ]
+}

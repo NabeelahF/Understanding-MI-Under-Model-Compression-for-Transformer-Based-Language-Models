@@ -1,0 +1,3 @@
+model,variant,n_layers,perplexity,loss,ppl_increase,ppl_increase_pct
+gpt2-base,base,12,33.01645187576874,3.4970059789258214,0.0,0.0
+distilgpt2,distilled,6,49.3311710012113,3.898556153078869,16.314719125442565,49.41390791121374

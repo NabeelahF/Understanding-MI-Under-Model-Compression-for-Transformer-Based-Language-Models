@@ -1,0 +1,8 @@
+class,base_dla
+previous_token,-0.044905895546078684
+duplicate_token,-0.03691858933866024
+induction,-0.08455377859622239
+s_inhibition,0.3841618615165353
+name_mover,3.575938767492771
+negative_name_mover,-2.0943535115495324
+backup_name_mover,0.4265454030781984

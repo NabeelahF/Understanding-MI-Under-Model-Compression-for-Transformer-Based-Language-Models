@@ -1,0 +1,18 @@
+{
+  "model": "magnitude_neurons_sparsity30",
+  "pruning_type": "magnitude_neurons",
+  "sparsity": 30,
+  "entropy_mean": 2.186069475575722,
+  "entropy_std": 0.9764329378470651,
+  "effective_support_mean": 13.465294711964289,
+  "top1_mass_mean": 0.4649152571767465,
+  "top3_mass_mean": 0.6235167374538206,
+  "first_token_attention_mean": 0.386429376042203,
+  "prev_token_attention_mean": 0.05802946860966282,
+  "last_token_attention_mean": 0.0002658208936038237,
+  "head_similarity_mean": 0.7746575810843043,
+  "head_similarity_std": 0.18880867773329102,
+  "head_similarity_min": 0.13412560895085335,
+  "entropy_change_mean": 0.1726678602549065,
+  "entropy_change_std": 0.6242578373579584
+}

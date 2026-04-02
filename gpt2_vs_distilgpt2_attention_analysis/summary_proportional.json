@@ -1,0 +1,35 @@
+{
+  "comparison_type": "proportional",
+  "gpt2": {
+    "n_layers": 12,
+    "n_heads": 12,
+    "total_heads": 144,
+    "entropy_mean": 1.8482192865892202,
+    "entropy_std": 0.7950746067752352,
+    "effective_support_mean": 9.057996163126242,
+    "top1_mass_mean": 0.527723022620711,
+    "top3_mass_mean": 0.699270704790122,
+    "bos_attention_mean": 0.44346528973605015,
+    "prev_token_attention_mean": 0.09423503605437061
+  },
+  "distilgpt2": {
+    "n_layers": 6,
+    "n_heads": 12,
+    "total_heads": 72,
+    "entropy_mean": 1.9310886696144978,
+    "entropy_std": 0.8212007700081673,
+    "effective_support_mean": 9.777176845398962,
+    "top1_mass_mean": 0.515534751592204,
+    "top3_mass_mean": 0.6794006669769684,
+    "bos_attention_mean": 0.3940783185147059,
+    "prev_token_attention_mean": 0.10285803813460974
+  },
+  "comparison": {
+    "head_similarity_mean": 0.8996265534725454,
+    "head_similarity_std": 0.07633709735839041,
+    "head_similarity_min": 0.6541650056838989,
+    "head_similarity_max": 0.9868345975875854,
+    "entropy_change_mean": -0.027234527670338578,
+    "entropy_change_std": 0.5438482096542685
+  }
+}

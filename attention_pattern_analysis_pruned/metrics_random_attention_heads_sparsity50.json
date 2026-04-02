@@ -1,0 +1,18 @@
+{
+  "model": "random_attention_heads_sparsity50",
+  "pruning_type": "random_attention_heads",
+  "sparsity": 50,
+  "entropy_mean": 3.3873233226603934,
+  "entropy_std": 0.9660116276056895,
+  "effective_support_mean": 42.14437627424634,
+  "top1_mass_mean": 0.20510429641995062,
+  "top3_mass_mean": 0.3120728762200775,
+  "first_token_attention_mean": 0.16953021120876655,
+  "prev_token_attention_mean": 0.05254869550572442,
+  "last_token_attention_mean": 0.00014559846128077937,
+  "head_similarity_mean": 0.5868676018125067,
+  "head_similarity_std": 0.28475726015686414,
+  "head_similarity_min": 0.18087151125073433,
+  "entropy_change_mean": 1.3739217073395775,
+  "entropy_change_std": 1.2427926698430674
+}

@@ -1,0 +1,204 @@
+
+--------------------------------------------------------------------------------
+SECTION 1: PROBE VALIDITY
+--------------------------------------------------------------------------------
+  base_model                               Layer 0: 74.2%  ✓ VALID
+  magnitude_attention_heads_sparsity30     Layer 0: 74.2%  ✓ VALID
+  magnitude_attention_heads_sparsity50     Layer 0: 74.2%  ✓ VALID
+  magnitude_attention_heads_sparsity70     Layer 0: 73.8%  ✓ VALID
+  magnitude_neurons_sparsity30             Layer 0: 74.2%  ✓ VALID
+  magnitude_neurons_sparsity50             Layer 0: 73.5%  ✓ VALID
+  magnitude_neurons_sparsity70             Layer 0: 72.8%  ✓ VALID
+  random_attention_heads_sparsity30        Layer 0: 72.2%  ✓ VALID
+  random_attention_heads_sparsity50        Layer 0: 72.8%  ✓ VALID
+  random_attention_heads_sparsity70        Layer 0: 71.2%  ✓ VALID
+  random_neurons_sparsity30                Layer 0: 72.5%  ✓ VALID
+  random_neurons_sparsity50                Layer 0: 74.2%  ✓ VALID
+  random_neurons_sparsity70                Layer 0: 72.7%  ✓ VALID
+
+--------------------------------------------------------------------------------
+SECTION 2: INPUT-TYPE SEPARABILITY + DIRECTION
+--------------------------------------------------------------------------------
+
+  magnitude_attention_heads_sparsity30:
+    Peak probe accuracy   : 82.7%  (baseline 85.2%, retention 97.1%)
+    Peak direction magnitude: 6.4848  (baseline 6.5476, retention 99.0%)
+    First separation layer  : Layer 0
+
+  magnitude_attention_heads_sparsity50:
+    Peak probe accuracy   : 80.2%  (baseline 85.2%, retention 94.1%)
+    Peak direction magnitude: 5.7346  (baseline 6.5476, retention 87.6%)
+    First separation layer  : Layer 0
+
+  magnitude_attention_heads_sparsity70:
+    Peak probe accuracy   : 78.7%  (baseline 85.2%, retention 92.4%)
+    Peak direction magnitude: 4.6735  (baseline 6.5476, retention 71.4%)
+    First separation layer  : Layer 0
+
+  magnitude_neurons_sparsity30:
+    Peak probe accuracy   : 81.0%  (baseline 85.2%, retention 95.0%)
+    Peak direction magnitude: 4.3862  (baseline 6.5476, retention 67.0%)
+    First separation layer  : Layer 0
+
+  magnitude_neurons_sparsity50:
+    Peak probe accuracy   : 80.5%  (baseline 85.2%, retention 94.4%)
+    Peak direction magnitude: 4.9201  (baseline 6.5476, retention 75.1%)
+    First separation layer  : Layer 0
+
+  magnitude_neurons_sparsity70:
+    Peak probe accuracy   : 81.5%  (baseline 85.2%, retention 95.6%)
+    Peak direction magnitude: 5.2068  (baseline 6.5476, retention 79.5%)
+    First separation layer  : Layer 0
+
+  random_attention_heads_sparsity30:
+    Peak probe accuracy   : 82.0%  (baseline 85.2%, retention 96.2%)
+    Peak direction magnitude: 5.0556  (baseline 6.5476, retention 77.2%)
+    First separation layer  : Layer 0
+
+  random_attention_heads_sparsity50:
+    Peak probe accuracy   : 79.5%  (baseline 85.2%, retention 93.3%)
+    Peak direction magnitude: 3.8507  (baseline 6.5476, retention 58.8%)
+    First separation layer  : Layer 0
+
+  random_attention_heads_sparsity70:
+    Peak probe accuracy   : 78.0%  (baseline 85.2%, retention 91.5%)
+    Peak direction magnitude: 4.5295  (baseline 6.5476, retention 69.2%)
+    First separation layer  : Layer 0
+
+  random_neurons_sparsity30:
+    Peak probe accuracy   : 78.5%  (baseline 85.2%, retention 92.1%)
+    Peak direction magnitude: 7.3975  (baseline 6.5476, retention 113.0%)
+    First separation layer  : Layer 0
+
+  random_neurons_sparsity50:
+    Peak probe accuracy   : 81.5%  (baseline 85.2%, retention 95.6%)
+    Peak direction magnitude: 5.6141  (baseline 6.5476, retention 85.7%)
+    First separation layer  : Layer 0
+
+  random_neurons_sparsity70:
+    Peak probe accuracy   : 79.2%  (baseline 85.2%, retention 93.0%)
+    Peak direction magnitude: 3.5041  (baseline 6.5476, retention 53.5%)
+    First separation layer  : Layer 0
+
+--------------------------------------------------------------------------------
+SECTION 3: PATCHING EFFECTS (vocab-agnostic)
+--------------------------------------------------------------------------------
+
+  magnitude_attention_heads_sparsity30:
+    Max rank shift: 1.4 at Layer 0
+    Max KL div    : 0.3840 at Layer 0
+
+  magnitude_attention_heads_sparsity50:
+    Max rank shift: 0.6 at Layer 0
+    Max KL div    : 0.2667 at Layer 0
+
+  magnitude_attention_heads_sparsity70:
+    Max rank shift: 1.0 at Layer 0
+    Max KL div    : 0.2625 at Layer 0
+
+  magnitude_neurons_sparsity30:
+    Max rank shift: 1.4 at Layer 0
+    Max KL div    : 0.6455 at Layer 0
+
+  magnitude_neurons_sparsity50:
+    Max rank shift: 5.9 at Layer 0
+    Max KL div    : 0.6354 at Layer 0
+
+  magnitude_neurons_sparsity70:
+    Max rank shift: 5.3 at Layer 0
+    Max KL div    : 0.8016 at Layer 0
+
+  random_attention_heads_sparsity30:
+    Max rank shift: 0.4 at Layer 0
+    Max KL div    : 0.1798 at Layer 0
+
+  random_attention_heads_sparsity50:
+    Max rank shift: 646.1 at Layer 0
+    Max KL div    : 0.5968 at Layer 0
+
+  random_attention_heads_sparsity70:
+    Max rank shift: 0.1 at Layer 0
+    Max KL div    : 0.1063 at Layer 0
+
+  random_neurons_sparsity30:
+    Max rank shift: 0.2 at Layer 0
+    Max KL div    : 0.1770 at Layer 0
+
+  random_neurons_sparsity50:
+    Max rank shift: 0.5 at Layer 0
+    Max KL div    : 0.1438 at Layer 0
+
+  random_neurons_sparsity70:
+    Max rank shift: 0.6 at Layer 0
+    Max KL div    : 0.0873 at Layer 0
+
+--------------------------------------------------------------------------------
+SECTION 4: FACTUAL RECALL CAPACITY
+--------------------------------------------------------------------------------
+
+  magnitude_attention_heads_sparsity30:
+    Peak top-5 accuracy: 19.5%  (baseline 20.0%)
+    Perplexity ratio   : 1.082  (baseline 1.102; >1 = model prefers correct answer)
+
+  magnitude_attention_heads_sparsity50:
+    Peak top-5 accuracy: 6.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.059  (baseline 1.102; >1 = model prefers correct answer)
+
+  magnitude_attention_heads_sparsity70:
+    Peak top-5 accuracy: 4.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.047  (baseline 1.102; >1 = model prefers correct answer)
+
+  magnitude_neurons_sparsity30:
+    Peak top-5 accuracy: 6.5%  (baseline 20.0%)
+    Perplexity ratio   : 1.060  (baseline 1.102; >1 = model prefers correct answer)
+
+  magnitude_neurons_sparsity50:
+    Peak top-5 accuracy: 1.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.050  (baseline 1.102; >1 = model prefers correct answer)
+
+  magnitude_neurons_sparsity70:
+    Peak top-5 accuracy: 1.5%  (baseline 20.0%)
+    Perplexity ratio   : 1.040  (baseline 1.102; >1 = model prefers correct answer)
+
+  random_attention_heads_sparsity30:
+    Peak top-5 accuracy: 13.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.067  (baseline 1.102; >1 = model prefers correct answer)
+
+  random_attention_heads_sparsity50:
+    Peak top-5 accuracy: 3.5%  (baseline 20.0%)
+    Perplexity ratio   : 1.053  (baseline 1.102; >1 = model prefers correct answer)
+
+  random_attention_heads_sparsity70:
+    Peak top-5 accuracy: 4.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.039  (baseline 1.102; >1 = model prefers correct answer)
+
+  random_neurons_sparsity30:
+    Peak top-5 accuracy: 5.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.042  (baseline 1.102; >1 = model prefers correct answer)
+
+  random_neurons_sparsity50:
+    Peak top-5 accuracy: 1.5%  (baseline 20.0%)
+    Perplexity ratio   : 1.020  (baseline 1.102; >1 = model prefers correct answer)
+
+  random_neurons_sparsity70:
+    Peak top-5 accuracy: 1.5%  (baseline 20.0%)
+    Perplexity ratio   : 1.018  (baseline 1.102; >1 = model prefers correct answer)
+
+--------------------------------------------------------------------------------
+SECTION 5: REPRESENTATIONAL CAPACITY TAX
+--------------------------------------------------------------------------------
+
+  Model                                    |  Safety Drop | General Drop | Tax
+  --------------------------------------------------------------------------
+  magnitude_attention_heads_sparsity30     |       +2.9% |       +2.5% | 🟢 ABSENT
+  magnitude_attention_heads_sparsity50     |      +12.4% |      +70.0% | 🟢 ABSENT
+  magnitude_attention_heads_sparsity70     |      +28.6% |      +80.0% | 🟢 ABSENT
+  magnitude_neurons_sparsity30             |      +33.0% |      +67.5% | 🟢 ABSENT
+  magnitude_neurons_sparsity50             |      +24.9% |      +95.0% | 🟢 ABSENT
+  magnitude_neurons_sparsity70             |      +20.5% |      +92.5% | 🟢 ABSENT
+  random_attention_heads_sparsity30        |      +22.8% |      +35.0% | 🟢 ABSENT
+  random_attention_heads_sparsity50        |      +41.2% |      +82.5% | 🟢 ABSENT
+  random_attention_heads_sparsity70        |      +30.8% |      +80.0% | 🟢 ABSENT
+  random_neurons_sparsity30                |       +7.9% |      +75.0% | 🟢 ABSENT
+  random_neurons_sparsity50                |      +14.3% |      +92.5% | 🟢 ABSENT
+  random_neurons_sparsity70                |      +46.5% |      +92.5% | 🟢 ABSENT

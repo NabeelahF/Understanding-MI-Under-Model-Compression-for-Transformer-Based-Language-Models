@@ -1,0 +1,40 @@
+
+--------------------------------------------------------------------------------
+SECTION 1: PROBE VALIDITY
+--------------------------------------------------------------------------------
+  gpt2_baseline                            Layer 0: 74.2%  ✓ VALID
+  distilgpt2                               Layer 0: 74.8%  ✓ VALID
+
+--------------------------------------------------------------------------------
+SECTION 2: INPUT-TYPE SEPARABILITY + DIRECTION
+--------------------------------------------------------------------------------
+
+  distilgpt2:
+    Peak probe accuracy   : 83.0%  (baseline 85.2%, retention 97.4%)
+    Peak direction magnitude: 7.1329  (baseline 6.5476, retention 108.9%)
+    First separation layer  : Layer 0
+
+--------------------------------------------------------------------------------
+SECTION 3: PATCHING EFFECTS (vocab-agnostic)
+--------------------------------------------------------------------------------
+
+  distilgpt2:
+    Max rank shift: 0.7 at Layer 0
+    Max KL div    : 0.3289 at Layer 0
+
+--------------------------------------------------------------------------------
+SECTION 4: FACTUAL RECALL CAPACITY
+--------------------------------------------------------------------------------
+
+  distilgpt2:
+    Peak top-5 accuracy: 13.0%  (baseline 20.0%)
+    Perplexity ratio   : 1.081  (baseline 1.102; >1 = model prefers correct answer)
+
+--------------------------------------------------------------------------------
+SECTION 5: REPRESENTATIONAL CAPACITY TAX
+--------------------------------------------------------------------------------
+
+  Model                                    |  Safety Drop | General Drop | Tax
+  --------------------------------------------------------------------------
+  gpt2_baseline                            |       +0.0% |       +0.0% | 🟢 ABSENT
+  distilgpt2                               |       +2.6% |      +35.0% | 🟢 ABSENT
